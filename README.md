@@ -38,7 +38,7 @@ This software is compatible with:
 - Run the application using Python with the main script (e.g., `main.py`).
 
 ### Running the Executable
-- Download the `ATR_VMS_Analyzer_v1.0.exe` file from the [Releases](https://github.com/<your-username>/atr-vms-analyzer/releases) section of this repository.
+- Download the `ATR_VMS_Analyzer_v1.0.exe` file from the [Releases](https://github.com/shaffan-waheed/atr-vms-analyzer/releases) section of this repository.
 - Place the `.exe` file in a directory of your choice on your Windows PC.
 - Double-click the `ATR - VMS Analyzer v1.0.exe` file to launch the application.
 - **Note on Windows Warnings**: Since this executable is not digitally signed, Windows may display a "Windows Defender SmartScreen" warning stating "Windows protected your PC" or "The publisher could not be verified." To proceed:
