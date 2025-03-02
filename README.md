@@ -1,4 +1,4 @@
-# ATR - VMS Analyzer v1.0
+# ATR - VMS Analyzer v1.1
 
 ![ATR - VMS Analyzer Splash Screen](atr_propeller.png)  
 *Developed by Shaffan Waheed for the ATR Community*
@@ -8,7 +8,7 @@
 
 ## Overview
 
-Welcome to **ATR - VMS Analyzer v1.0**, a tool designed to analyze propeller vibration data from ATR aircraft MPC reports. This software automatically processes `REPORT26` files stored locally on your PC, providing vibration trend analysis for propeller balancing and maintenance purposes. It is built for ATR aircraft equipped with the Vibration Monitoring System (VMS).
+Welcome to **ATR - VMS Analyzer v1.1**, a tool designed to analyze propeller vibration data from ATR aircraft MPC reports. This software automatically processes `REPORT26` files stored locally on your PC, providing vibration trend analysis for propeller balancing and maintenance purposes. It is built for ATR aircraft equipped with the Vibration Monitoring System (VMS).
 
 On ATR aircraft with VMS installed, propeller balancing reports are generated based on VMCU outputs and stored on the MPC PCMCIA card as `Report 26`. The software supports two types of measurements:
 
@@ -38,7 +38,7 @@ This software is compatible with:
 - Run the application using Python with the main script (e.g., `main.py`).
 
 ### Running the Executable
-- Download the `ATR_VMS_Analyzer_v1.0.exe` file from the [Releases](https://github.com/shaffan-waheed/atr-vms-analyzer/releases) section of this repository.
+- Download the `ATR_VMS_Analyzer_v1.1.exe` file from the [Releases](https://github.com/shaffan-waheed/atr-vms-analyzer/releases) section of this repository.
 - Place the `.exe` file in a directory of your choice on your Windows PC.
 - Double-click the `ATR - VMS Analyzer v1.0.exe` file to launch the application.
 - **Note on Windows Warnings**: Since this executable is not digitally signed, Windows may display a "Windows Defender SmartScreen" warning stating "Windows protected your PC" or "The publisher could not be verified." To proceed:
