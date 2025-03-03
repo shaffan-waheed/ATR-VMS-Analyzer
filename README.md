@@ -12,10 +12,15 @@ Welcome to **ATR - VMS Analyzer**, a tool designed to analyze propeller vibratio
 
 On ATR aircraft with VMS installed, propeller balancing reports are generated based on VMCU outputs and stored on the MPC PCMCIA card as `Report 26`. The software supports two types of measurements:
 
-- **Automatic Vibration Monitoring**: No operator action required. VMS monitors vibration levels in cruise and calculates balancing weight solutions if needed. Reports are created:
-  - Every 50 flights in automatic mode.
+- **Automatic Vibration Monitoring**: No operator action required. VMS monitors vibration levels in cruise and calculates balancing weight solutions if needed. Reports are created if one of the following conditions are   met:
+  - Every 50 flights on flight transition from 08 (Landing Roll) to 09 (Taxi-in)
+  - When on flight transition from 08 to 09 the vibration amplitude parameter is greater than IPS threshold.
+    **OR** 
   - Every flight if vibration exceeds 1 IPS, until corrective action is taken, or when thresholds set in the MCDU VMS menu are exceeded.
+ 
+    Note: The frequency of automatic report generation can be adjusted from MCDU>ACMS>VMS>UPDATE AUTO REPORT FREQ
 - **Manual Measurement**: Reports are generated whenever a manual measurement is commanded via MCDU.
+
 
 ## Prerequisites
 
